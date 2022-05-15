@@ -1,0 +1,26 @@
+@charset "utf8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    color: black;
+
+}
+h1#principal{
+    color: rgb(221, 13, 61);
+    text-align: center;
+    background-color: beige;
+}
+h2{
+    color: blue;
+}
+.titulo2{
+    color: rgb(245, 58, 11);
+    text-align: center;
+    background-color: blue;
+}
+p{
+    text-indent: 30px;
+}

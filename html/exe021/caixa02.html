@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        #fora{
+            font-size: 24px;
+            color: rgb(255, 0, 0);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            
+        }
+        body{
+            background-color: rgb(162, 225, 204);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: aqua;
+            width: auto;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(235, 89, 89);
+            padding: 2px;
+            width: 400px;
+            box-shadow: 1px 1px 1px rgba(114, 23, 23, 0.331) ;
+            border-radius: 5px;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 50px;
+            
+
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: blanchedalmond;
+            padding: 10px;
+            margin: 10px;
+            width: 400px;
+        }
+        article{
+            background-color: cornflowerblue;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow:1px 3px 7px rgb(12 10 145) ;
+        }
+        article > aside{
+            background-color: rgb(113, 213, 113);
+            text-align: right;
+        }
+        footer{
+            background-color: blue;
+            color: bisque;
+            text-align: center;
+            padding: 0px;
+            margin: 4px;
+            width: 417px;
+            font-size: 10px;
+           
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #instrumentos{
+            color: red;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50%;
+            text-align: center;
+        }
+        div#bola > p{
+           text-align: center;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <p id="fora">outro paragrafo texto</p>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link a</a>
+            <a href="#">link b</a>
+            <a href="#">link c</a>
+            <a href="#">link d</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <p id="instrumentos">Instrumentos Musicais</p>
+            <article>
+                <h2>Este tal violão</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse soluta fugiat iure facere repellat. Accusamus totam quisquam illum magni enim autem dolorem, est expedita velit, neque quia modi dolorum temporibus!</p>
+                <aside>
+                    <p>artigo escrito por luiz machado</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por LM</p>
+    </footer>
+    <div id="bola">
+        <p>luiz</p>
+    </div>
+    
+</body>
+</html>
